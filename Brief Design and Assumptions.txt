@@ -1,0 +1,9 @@
+Design:
+Though I have given sufficient explanation aove all Classes and all important methods regarding the reason why I implemented them, I will give a brief idea here:
+
+
+Assumptions:
+Currently I have assumed that user will provide input through a file.
+Although, I have made the design as such that in future we can take input from other sources such as XML files, Database,etc.
+
+Apart from this wherever I have given one implementation, as was required in the problem statement, I have also given the design that can be used to extend to implement other implementations without any change in any other code (accept places like Factory classes.)
