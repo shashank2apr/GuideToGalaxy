@@ -1,4 +1,4 @@
-package main.com.galaxy.Exceptions.enums;
+package com.galaxy.Exceptions.enums;
 
 public enum ExceptionEnums {
 	FILE_READER_NOT_FOUND("File Reader Not Found"), FILE_CANT_BE_NULL_OR_EMPTY(

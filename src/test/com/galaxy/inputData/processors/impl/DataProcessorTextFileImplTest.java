@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test.com.galaxy.inputData.processors.impl;
+package com.galaxy.inputData.processors.impl;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -11,13 +11,13 @@ import static org.junit.Assert.fail;
 import java.util.Arrays;
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.ValidationFailException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.inputData.processors.DataProcessorFactory;
-import main.com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
-import main.com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
-import main.com.galaxy.outputData.processors.OutputProcessor;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.ValidationFailException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.inputData.processors.DataProcessorFactory;
+import com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
+import com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
+import com.galaxy.outputData.processors.OutputProcessor;
 import static org.hamcrest.core.StringStartsWith.startsWith;
 
 import org.junit.Before;
@@ -79,7 +79,7 @@ public class DataProcessorTextFileImplTest {
 
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
+	 * {@link com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
 	 * .
 	 * 
 	 * @throws CustomException
@@ -101,7 +101,7 @@ public class DataProcessorTextFileImplTest {
 
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
+	 * {@link com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
 	 * .
 	 * 
 	 * @throws CustomException
@@ -116,7 +116,7 @@ public class DataProcessorTextFileImplTest {
 	}
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
+	 * {@link com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
 	 * .
 	 * 
 	 * @throws CustomException
@@ -132,7 +132,7 @@ public class DataProcessorTextFileImplTest {
 			}
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
+	 * {@link com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl#processInputData(java.util.List)}
 	 * .
 	 * 
 	 * @throws CustomException

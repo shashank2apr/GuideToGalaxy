@@ -1,10 +1,10 @@
-package main.com.galaxy.inputData.processors;
+package com.galaxy.inputData.processors;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
-import main.com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl;
-import main.com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
+import com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl;
+import com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
 
 /**
  * Factory for all Data Processors. Currently it is just for Text file input. In

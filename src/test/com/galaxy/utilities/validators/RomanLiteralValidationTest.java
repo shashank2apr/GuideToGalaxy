@@ -1,14 +1,14 @@
-package test.com.galaxy.utilities.validators;
+package com.galaxy.utilities.validators;
 
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.ValidationFailException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.readers.InputFileReaderFactory;
-import main.com.galaxy.readers.enums.FileTypeEnum;
-import main.com.galaxy.readers.interfaces.InputFileReaderIf;
-import main.com.galaxy.utilities.validators.RomanNumberValidator;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.ValidationFailException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.readers.InputFileReaderFactory;
+import com.galaxy.readers.enums.FileTypeEnum;
+import com.galaxy.readers.interfaces.InputFileReaderIf;
+import com.galaxy.utilities.validators.RomanNumberValidator;
 
 public class RomanLiteralValidationTest {
 

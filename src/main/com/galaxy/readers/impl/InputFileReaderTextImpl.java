@@ -1,4 +1,4 @@
-package main.com.galaxy.readers.impl;
+package com.galaxy.readers.impl;
 
 /**  
  * Implementation of FileProcessor Interface to handle TEXT.
@@ -9,9 +9,9 @@ package main.com.galaxy.readers.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.readers.interfaces.InputFileReaderIf;
-import main.com.galaxy.utilities.FileUtils;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.readers.interfaces.InputFileReaderIf;
+import com.galaxy.utilities.FileUtils;
 
 public class InputFileReaderTextImpl implements InputFileReaderIf {
 
@@ -21,7 +21,7 @@ public class InputFileReaderTextImpl implements InputFileReaderIf {
 	 * This method returns list of Strings present in Text Input File.
 	 * In future, this can be modified to contain some more logic/validation
 	 * @throws CustomException 
-	 * @see main.com.galaxy.InputFileReaderIf.readers.InputFileReader#readInput(java.lang.String)
+	 * @see com.galaxy.InputFileReaderIf.readers.InputFileReader#readInput(java.lang.String)
 	 */
 	public List<String> readInput(String filePath) throws CustomException {
 		

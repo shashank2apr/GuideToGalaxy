@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test.com.galaxy.outputData.processors;
+package com.galaxy.outputData.processors;
 
 import static org.junit.Assert.*;
 
@@ -10,12 +10,12 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.inputData.processors.DataProcessorFactory;
-import main.com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
-import main.com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl;
-import main.com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
-import main.com.galaxy.outputData.processors.OutputProcessor;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.inputData.processors.DataProcessorFactory;
+import com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
+import com.galaxy.inputData.processors.impl.DataProcessorTextFileImpl;
+import com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
+import com.galaxy.outputData.processors.OutputProcessor;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -66,7 +66,7 @@ public class OutputProcessorTest {
 
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.outputData.processors.OutputProcessor#generateOutput()}
+	 * {@link com.galaxy.outputData.processors.OutputProcessor#generateOutput()}
 	 * .
 	 * 
 	 * @throws CustomException

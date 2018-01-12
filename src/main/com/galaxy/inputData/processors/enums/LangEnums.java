@@ -1,4 +1,4 @@
-package main.com.galaxy.inputData.processors.enums;
+package com.galaxy.inputData.processors.enums;
 
 /**
  *  This class is being used to replace symbols/phrases used in input file.

@@ -1,4 +1,4 @@
-package main.com.galaxy.main;
+package com.galaxy.main;
 
 /**
  * ****************************** DESCRIPTION *******************************************
@@ -16,14 +16,14 @@ package main.com.galaxy.main;
 import java.util.List;
 import java.util.Map;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.inputData.processors.DataProcessorFactory;
-import main.com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
-import main.com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
-import main.com.galaxy.outputData.processors.OutputProcessor;
-import main.com.galaxy.readers.InputFileReaderFactory;
-import main.com.galaxy.readers.enums.FileTypeEnum;
-import main.com.galaxy.readers.interfaces.InputFileReaderIf;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.inputData.processors.DataProcessorFactory;
+import com.galaxy.inputData.processors.enums.DataProcessorTypeEnum;
+import com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
+import com.galaxy.outputData.processors.OutputProcessor;
+import com.galaxy.readers.InputFileReaderFactory;
+import com.galaxy.readers.enums.FileTypeEnum;
+import com.galaxy.readers.interfaces.InputFileReaderIf;
 
 public class Application {
 

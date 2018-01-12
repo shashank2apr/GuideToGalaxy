@@ -1,14 +1,14 @@
 /**
  * 
  */
-package test.com.galaxy.utilities;
+package com.galaxy.utilities;
 
 import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.Assert.*;
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.ValidationFailException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.utilities.RomanToNumericUtils;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.ValidationFailException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.utilities.RomanToNumericUtils;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -32,7 +32,7 @@ public class RomanToNumericUtilsTest {
 	}
 
 	/**
-	 * Test method for {@link main.com.galaxy.utilities.RomanToNumericUtils#convertRomanToNumeric(java.lang.String)}.
+	 * Test method for {@link com.galaxy.utilities.RomanToNumericUtils#convertRomanToNumeric(java.lang.String)}.
 	 * @throws CustomException 
 	 * @throws ValidationFailException 
 	 */
@@ -43,7 +43,7 @@ public class RomanToNumericUtilsTest {
 		assertEquals(RomanToNumericUtils.INSTANCE.convertRomanToNumeric("MMMCDLVI"),3456);
 	}
 	/**
-	 * Test method for {@link main.com.galaxy.utilities.RomanToNumericUtils#convertRomanToNumeric(java.lang.String)}.
+	 * Test method for {@link com.galaxy.utilities.RomanToNumericUtils#convertRomanToNumeric(java.lang.String)}.
 	 * @throws CustomException 
 	 * @throws ValidationFailException 
 	 */

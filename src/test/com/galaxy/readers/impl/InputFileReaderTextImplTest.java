@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test.com.galaxy.readers.impl;
+package com.galaxy.readers.impl;
 
 import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.Assert.*;
@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.utilities.FileUtils;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.utilities.FileUtils;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -41,7 +41,7 @@ public class InputFileReaderTextImplTest {
 
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
+	 * {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
 	 * .
 	 * 
 	 * @throws CustomException
@@ -59,7 +59,7 @@ public class InputFileReaderTextImplTest {
 
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
+	 * {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
 	 * .
 	 * 
 	 * @throws CustomException
@@ -77,7 +77,7 @@ public class InputFileReaderTextImplTest {
 
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
+	 * {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
 	 * .
 	 * 
 	 * @throws CustomException
@@ -94,7 +94,7 @@ public class InputFileReaderTextImplTest {
 
 	/**
 	 * Test method for
-	 * {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
+	 * {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}
 	 * .
 	 * 
 	 * @throws CustomException

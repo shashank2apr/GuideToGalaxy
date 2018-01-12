@@ -1,10 +1,10 @@
-package main.com.galaxy.readers;
+package com.galaxy.readers;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.readers.enums.FileTypeEnum;
-import main.com.galaxy.readers.impl.InputFileReaderTextImpl;
-import main.com.galaxy.readers.interfaces.InputFileReaderIf;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.readers.enums.FileTypeEnum;
+import com.galaxy.readers.impl.InputFileReaderTextImpl;
+import com.galaxy.readers.interfaces.InputFileReaderIf;
 
 /**
  * Factory for all File Processors. 

@@ -1,4 +1,4 @@
-package main.com.galaxy.outputData.processors;
+package com.galaxy.outputData.processors;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;
@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import main.com.galaxy.inputData.processors.enums.LangEnums;
-import main.com.galaxy.utilities.RomanToNumericUtils;
+import com.galaxy.inputData.processors.enums.LangEnums;
+import com.galaxy.utilities.RomanToNumericUtils;
 
 public final class OutputProcessor {
 

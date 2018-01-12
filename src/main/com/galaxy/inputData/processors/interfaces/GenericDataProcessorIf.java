@@ -1,4 +1,4 @@
-package main.com.galaxy.inputData.processors.interfaces;
+package com.galaxy.inputData.processors.interfaces;
 
 /**
  * Interface for all Data Processors.
@@ -9,8 +9,8 @@ package main.com.galaxy.inputData.processors.interfaces;
 
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.outputData.processors.OutputProcessor;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.outputData.processors.OutputProcessor;
 
 public interface GenericDataProcessorIf {
 

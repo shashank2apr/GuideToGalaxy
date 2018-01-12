@@ -1,4 +1,4 @@
-package main.com.galaxy.utilities;
+package com.galaxy.utilities;
 
 /*
  * Utility class for File related operations
@@ -12,8 +12,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
 
 public class FileUtils {
 

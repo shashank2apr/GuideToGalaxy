@@ -1,4 +1,4 @@
-package main.com.galaxy.inputData.processors.impl;
+package com.galaxy.inputData.processors.impl;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,14 +7,14 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.ValidationFailException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.inputData.processors.enums.LangEnums;
-import main.com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
-import main.com.galaxy.outputData.processors.OutputProcessor;
-import main.com.galaxy.utilities.RomanToNumericUtils;
-import main.com.galaxy.utilities.validators.RomanNumberValidator;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.ValidationFailException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.inputData.processors.enums.LangEnums;
+import com.galaxy.inputData.processors.interfaces.GenericDataProcessorIf;
+import com.galaxy.outputData.processors.OutputProcessor;
+import com.galaxy.utilities.RomanToNumericUtils;
+import com.galaxy.utilities.validators.RomanNumberValidator;
 
 public class DataProcessorTextFileImpl implements GenericDataProcessorIf {
 
@@ -42,8 +42,8 @@ public class DataProcessorTextFileImpl implements GenericDataProcessorIf {
 	}
 
 	public OutputProcessor processInputData(List<String> rawInputData) throws CustomException {
-		
-		if(null == rawInputData || rawInputData.isEmpty()){
+
+		if (null == rawInputData || rawInputData.isEmpty()) {
 			System.out.println("OutputProcessor processInputData");
 			throw new IllegalArgumentException(ExceptionEnums.PARAM_CANT_BE_NULL_OR_EMPTY.getValue());
 		}
@@ -84,8 +84,7 @@ public class DataProcessorTextFileImpl implements GenericDataProcessorIf {
 	 * @return
 	 */
 	private boolean checkIfCurrencyMapping(String[] arr) {
-		return arr.length == 3
-				&& arr[1].equalsIgnoreCase(LangEnums.IS.getTextVal());
+		return arr.length == 3 && arr[1].equalsIgnoreCase(LangEnums.IS.getTextVal());
 	}
 
 	/**
@@ -98,9 +97,9 @@ public class DataProcessorTextFileImpl implements GenericDataProcessorIf {
 
 	/**
 	 * @param arr
-	 * @throws CustomException 
+	 * @throws CustomException
 	 */
-	private void processCurrencyMapping(String[] arr) throws CustomException  {
+	private void processCurrencyMapping(String[] arr) throws CustomException {
 		Character value = (arr[arr.length - 1]).charAt(0);
 		try {
 			if (null != interGalacticToRomanMap && RomanNumberValidator.validate(Character.toString(value)))
@@ -122,7 +121,7 @@ public class DataProcessorTextFileImpl implements GenericDataProcessorIf {
 	}
 
 	private void processCredits(String query, String[] array) {
-		
+
 		int creditValue = 0;
 		String element = null;
 		List<String> valueofElement = new ArrayList<String>();
@@ -141,7 +140,7 @@ public class DataProcessorTextFileImpl implements GenericDataProcessorIf {
 
 		valueofElement.remove(element);
 		valueofElement.remove(Integer.toString(creditValue));
-		
+
 		char[] currencyToRomanList = mapCurrencyToRoman(valueofElement);
 
 		calculateCreditValue(creditValue, element, currencyToRomanList);
@@ -153,23 +152,19 @@ public class DataProcessorTextFileImpl implements GenericDataProcessorIf {
 	 * @param element
 	 * @param currencyToRomanList
 	 */
-	private void calculateCreditValue(int creditValue, String element,
-			char[] currencyToRomanList) {
+	private void calculateCreditValue(int creditValue, String element, char[] currencyToRomanList) {
 		try {
-			int romanValue = RomanToNumericUtils.INSTANCE
-					.convertRomanToNumeric(new String(currencyToRomanList));
-			
+			int romanValue = RomanToNumericUtils.INSTANCE.convertRomanToNumeric(new String(currencyToRomanList));
+
 			if (null != creditsPerUnitVal)
 				creditsPerUnitVal.put(element, new Float(creditValue * 1f / romanValue));
 		} catch (Exception e) {
 			if (null != creditsPerUnitVal)
 				creditsPerUnitVal.put(element, null);
-			
-			System.err.println("wrong roman value :"
-					+ new String(currencyToRomanList) + " for " + element
+
+			System.err.println("wrong roman value :" + new String(currencyToRomanList) + " for " + element
 					+ " --- ERROR: " + e.getMessage());
-			
-			
+
 		}
 	}
 

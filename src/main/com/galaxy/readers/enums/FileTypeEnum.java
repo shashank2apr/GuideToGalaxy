@@ -1,4 +1,4 @@
-package main.com.galaxy.readers.enums;
+package com.galaxy.readers.enums;
 
 /**
  * Enum containing all File Types that our system can process

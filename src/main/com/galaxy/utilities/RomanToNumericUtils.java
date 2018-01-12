@@ -1,4 +1,4 @@
-package main.com.galaxy.utilities;
+package com.galaxy.utilities;
 
 /**
  * Currently this class provides utility of converting from Roman to Decimal
@@ -10,10 +10,10 @@ package main.com.galaxy.utilities;
 
 import java.util.Map;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.ValidationFailException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.utilities.validators.RomanNumberValidator;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.ValidationFailException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.utilities.validators.RomanNumberValidator;
 
 public enum RomanToNumericUtils {
 

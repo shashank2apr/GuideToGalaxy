@@ -1,9 +1,9 @@
 /**
  * 
  */
-package test.com.galaxy.main;
+package com.galaxy.main;
 
-import main.com.galaxy.main.Application;
+import com.galaxy.main.Application;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -22,7 +22,7 @@ public class ApplicationTest {
 	}
 
 	/**
-	 * Test method for {@link main.com.galaxy.main.Application#main(java.lang.String[])}.
+	 * Test method for {@link com.galaxy.main.Application#main(java.lang.String[])}.
 	 */
 	@Test
 	public final void testNullFileAsInputToMain() {
@@ -35,7 +35,7 @@ public class ApplicationTest {
 
 
 	/**
-	 * Test method for {@link main.com.galaxy.main.Application#main(java.lang.String[])}.
+	 * Test method for {@link com.galaxy.main.Application#main(java.lang.String[])}.
 	 */
 	@Test
 	public final void testEmptyFileAsInputToMain() {
@@ -48,7 +48,7 @@ public class ApplicationTest {
 
 
 	/**
-	 * Test method for {@link main.com.galaxy.main.Application#main(java.lang.String[])}.
+	 * Test method for {@link com.galaxy.main.Application#main(java.lang.String[])}.
 	 */
 	@Test
 	public final void testFileWithCorrectDataAsInputToMain() {
@@ -61,7 +61,7 @@ public class ApplicationTest {
 
 
 	/**
-	 * Test method for {@link main.com.galaxy.main.Application#main(java.lang.String[])}.
+	 * Test method for {@link com.galaxy.main.Application#main(java.lang.String[])}.
 	 */
 	@Test
 	public final void testFileWithIncorrectDataAsInputToMain() {

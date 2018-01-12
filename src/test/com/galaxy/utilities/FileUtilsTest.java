@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test.com.galaxy.utilities;
+package com.galaxy.utilities;
 import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.Assert.assertEquals;
 
@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.utilities.FileUtils;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.utilities.FileUtils;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -55,7 +55,7 @@ public class FileUtilsTest {
 	}
 
 	/**
-	 * Test method for {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
+	 * Test method for {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
 	 * @throws CustomException 
 	 */
 	@Test
@@ -69,7 +69,7 @@ public class FileUtilsTest {
 	}
 
 	/**
-	 * Test method for {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
+	 * Test method for {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
 	 * @throws CustomException 
 	 */
 	@Test
@@ -83,7 +83,7 @@ public class FileUtilsTest {
 	}
 
 	/**
-	 * Test method for {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
+	 * Test method for {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
 	 * @throws CustomException 
 	 */
 	@Test
@@ -96,7 +96,7 @@ public class FileUtilsTest {
 	}
 
 	/**
-	 * Test method for {@link main.com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
+	 * Test method for {@link com.galaxy.utilities.FileUtils#readFromFile(java.lang.String)}.
 	 * @throws CustomException 
 	 */
 	@Test

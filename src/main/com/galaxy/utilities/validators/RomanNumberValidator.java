@@ -1,14 +1,14 @@
-package main.com.galaxy.utilities.validators;
+package com.galaxy.utilities.validators;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import main.com.galaxy.Exceptions.CustomException;
-import main.com.galaxy.Exceptions.ValidationFailException;
-import main.com.galaxy.Exceptions.enums.ExceptionEnums;
-import main.com.galaxy.outputData.processors.OutputProcessor;
-import main.com.galaxy.utilities.MappingDataProviderUtility;
+import com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.ValidationFailException;
+import com.galaxy.Exceptions.enums.ExceptionEnums;
+import com.galaxy.outputData.processors.OutputProcessor;
+import com.galaxy.utilities.MappingDataProviderUtility;
 
 public class RomanNumberValidator {
 

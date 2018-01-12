@@ -1,4 +1,4 @@
-package main.com.galaxy.Exceptions;
+package com.galaxy.Exceptions;
 
 public class CustomException extends Exception {
 	/**

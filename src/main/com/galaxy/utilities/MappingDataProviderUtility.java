@@ -1,4 +1,4 @@
-package main.com.galaxy.utilities;
+package com.galaxy.utilities;
 
 import java.util.ArrayList;
 import java.util.Collections;

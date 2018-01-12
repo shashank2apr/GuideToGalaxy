@@ -1,4 +1,4 @@
-package main.com.galaxy.readers.interfaces;
+package com.galaxy.readers.interfaces;
 
 /**
  * Interface for all Input File Processors.
@@ -9,7 +9,7 @@ package main.com.galaxy.readers.interfaces;
 
 import java.util.List;
 
-import main.com.galaxy.Exceptions.CustomException;
+import com.galaxy.Exceptions.CustomException;
 
 
 public interface InputFileReaderIf {

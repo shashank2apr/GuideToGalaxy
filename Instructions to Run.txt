@@ -1,6 +1,2 @@
 Follow below steps in sequence:
-1- 
-2-
-3-
-4-
-5-
+1- Run src/main/com/galaxy/main/Application.java
